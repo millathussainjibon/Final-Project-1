@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    --bodybg:#F9F9FF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   
+}
+html,body{
+     background-color: var(--bodybg);
+     font-family: 'Roboto', sans-serif;
+
+}
+/* Common Style */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/bgheader.png);
+    position: relative;
+      z-index: 20;
+}
+header::before {
+    content: '';
+    background-color: #262BDB;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -20;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+button{
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+   
+    cursor: pointer;
+}
+.btn{
+    padding:8px 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+
+}
+.btn-primary{
+    background:#333;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+     border: none;
+
+}
+.btn-primary:hover{
+
+     background:#ddd;
+     color:#000;
+
+
+
+}
+/* headline section */
+.hadline-section{
+    text-align: center;
+}
+.hadline-section h1{
+    font-weight: 450;
+    margin:1.5rem;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.hadline-section p{
+    font-weight: 470;
+    line-height:20px;
+    margin-bottom:1rem;
+    font-size: 15px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+/* headline section */
+
+
+
+/* Common Style */
+/* Navigation BAR Design */
+/* navbar left Design */
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-left a{
+    display: flex;
+    align-items: center;
+}
+.nav-left a img{
+    width: 30px;
+    margin-right: 0.3rem;
+}
+/* navbar left Design */
+/* navbar right design */
+
+.nav-right{
+    width: 800px;
+
+}
+.nav-right.nav-right-wrapper {
+
+}
+.nav-right-wrapper ul{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .nav-right-wrapper ul li{
+  color: #fff;
+
+}
+ .nav-right-wrapper ul li a{
+  color: #fff;
+
+}
+
+/* Navigation BAR Design */
+/* header Section Design */
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper .header-left{
+
+ 
+}
+.header-left h2{
+    font-weight: 450;
+    line-height: 35px;
+    margin: 1rem 0;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header-left p{
+    font-weight: 500;
+    line-height: 20px;
+    margin: 1rem 0;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+
+}
+
+.header-left button img {
+    width: 11px;
+    margin-left: 0.2rem;
+    text-align: center;
+}
+
+
+
+/* header-right */
+.header-right{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-right img{
+
+    width: 600px;
+    
+}
+
+/* Provide Section  */
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3rem 0;
+}
+.card-item{
+  background:#f0f0f6;
+  padding:1.5rem;
+  margin-left: 1rem;
+ 
+
+}
+.card-item img{
+    width: 120px;
+}
+.card-item h3{
+    margin:1rem;
+}
+.card-item p {
+    width: 250px;
+    color: #685656;
+    font-weight: 300;
+}
+
+/* Why Me Section design */
+
+.why-us-section{
+    background-image: url(../img/Component\ 2\ –\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+  
+
+
+}
+
+
+
+.why-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.why-left img{
+    width: 500px;
+}
+.why-right{
+    padding-left: 40rem;
+}
+ .why-right h2{
+     margin: 1rem 0;
+ }
+
+.why-right .excc {
+    width: 200px;
+    margin: 2rem 0;
+}
+button img{
+    width: 20px;
+}
+.why-content {
+    margin-top: 15rem;
+}
+
+/* Complete Section Maiking */
+.complete-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.item-con img{
+    width: 50px;
+    margin-right: 0.6rem;;
+}
+.item-con{
+    display: flex;
+    align-items: center;
+}
+.item-con:nth-child(1){
+    background:#ddd;
+    border-bottom-right-radius: 30px;
+    padding: 1rem;
+
+}
+/* This is a Protfolio Section */
+.protfolio-wrapper{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+  
+    justify-content: space-around;
+}
+.protfolio-item img{
+    width: 350px;
+}
+.clindtop-wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.clindtopsection-left h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0.8rem 0;
+}
+.clindtopsection-left p{
+   
+    line-height: 21px;
+}
+.clind-buttom{
+    background:#ddd;
+    margin: 3rem 0;
+}
+.buttom-wrapper{
+    display: flex;
+}
+.buttom-wrapper img{
+    width: 19rem;
+}
+
+
+
+.starsection{
+    display: flex;
+    margin: 0rem 0;
+    margin-left: 6rem;
+}
+.starsection img{
+    width: 20px;
+}
+.buttom-wrapper-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contentbutton {
+    margin-left: 6rem;
+}
+
+.contentbutton p:nth-child(1){
+        margin: 1rem 0;
+}
+/* Footer section  */
+footer{
+    background-color: #EBEBF8;
+    padding: 3rem 0;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-items h1{
+    margin: 1rem 0;
+    font-size: 25px;
+    font-weight: 450;
+}
+.footer-items ul li{
+    margin: 0.5rem 0;
+}
+.footer-items ul li a{
+ color: #8A8A8A;
+ transition: .3s ease-in;
+}
+.footer-items ul li a:hover{
+   color:darkcyan;
+}
+
+
+
+/* Copy Right Section  */
+.copyright{
+        background-color: #EBEBF8;
+        font-family: 'Roboto', sans-serif;
+
+}
+.copy-right-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tarm{
+    display: flex
+}
+.tarm a:nth-child(1){
+    margin-right: 1rem;
+    border-right:2px solid;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
